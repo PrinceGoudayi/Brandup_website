@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>BrandUp — Votre profil devient une vraie présence web</title>
+  <meta name="description" content="BrandUp conçoit des sites web professionnels, du motion design et des identités visuelles pour créateurs et entrepreneurs : crédibilité, clarté et commandes directes sur WhatsApp.">
+  <meta name="theme-color" content="#090a10">
+  <link rel="icon" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+<script>if(localStorage.getItem("bu-theme")==="light")document.body.classList.add("light");</script>
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="nav">
+    <div class="nav-in">
+      <a class="brand" href="index.html" aria-label="BrandUp — Accueil">
+        <img src="assets/favicon.png" alt="BrandUp Logo">
+        <span>Brand<b>Up</b></span>
+      </a>
+      <nav class="links" aria-label="Navigation principale">
+        <a href="#top">Accueil</a>
+        <a href="#qui-sommes-nous">L'équipe</a>
+        <a href="#tarifs">Tarifs</a>
+        <a href="#portfolio">Portfolio</a>
+        <a class="btn btn-green btn-sm" href="https://wa.me/2290193178531?text=Bonjour%20BrandUp%2C%20je%20souhaite%20lancer%20mon%20site%20web" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-1.7-.8-2.8-1.5-3.9-3.4-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3 1.8.8 2.5.8 3.4.7.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg>
+          Discuter sur WhatsApp
+        </a>
+      </nav>
+      <button class="burger" aria-label="Menu de navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <button class="theme-toggle" aria-label="Basculer mode clair/sombre">
+        <svg class="icon-moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg class="icon-sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <!-- 3D HERO INTERACTIF (Avec guépard Three.js et fenêtres de vrais sites) -->
+  <section class="hero" id="top">
+    <div class="hero-word" aria-hidden="true">BrandUp</div>
+    <div id="hero3d" role="img" aria-label="Guépard BrandUp et fenêtres de sites interactives en 3D"></div>
+    <div class="scroll-hint">Défiler</div>
+    <div class="hero-copy">
+      <div class="wrap">
+        <div>
+          <span class="tagline tagline-violet">
+            <span class="tagline-dot"></span>
+            Agence digitale · Sites web &amp; Conversion WhatsApp
+          </span>
+          <h1>Déployez votre business en ligne et <span class="grad">transformez vos visiteurs en clients</span>.</h1>
+          <p>
+            Nous créons pour vous un système web sûr, attrayant et pensé pour convertir : vos offres sont claires, votre crédibilité est installée, et vos clients vous écrivent directement sur WhatsApp.
+          </p>
+        </div>
+        <div class="hero-cta">
+          <div class="row">
+            <a class="btn btn-green" href="https://wa.me/2290193178531?text=Bonjour%20BrandUp%2C%20je%20veux%20transformer%20mon%20profil%20en%20vraie%20pr%C3%A9sence%20web" target="_blank" rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-1.7-.8-2.8-1.5-3.9-3.4-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3 1.8.8 2.5.8 3.4.7.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg>
+              Discuter sur WhatsApp
+            </a>
+            <a class="btn btn-outline" href="portfolio.html">Voir le portfolio</a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VALEUR AJOUTEE & MOCKUPS REELS -->
+  <section class="sec">
+    <div class="wrap">
+      <div class="showcase-split">
+        <div>
+          <div class="tagline">Le problème réel</div>
+          <h2>Les vues sont là. Les ventes, pas encore.</h2>
+          <p class="lead" style="margin-bottom: 28px;">
+            Une simple bio TikTok ne montre ni vos tarifs, ni vos conditions, ni vos garanties. Vos visiteurs hésitent ou posent continuellement les mêmes questions.
+          </p>
+
+          <div class="grid g2">
+            <div class="card tilt">
+              <div class="card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+              </div>
+              <h3 style="font-size: 1.1rem;">Questions en boucle</h3>
+              <p>Prix, livraison, disponibilité : votre WhatsApp sature de messages sans achat.</p>
+            </div>
+
+            <div class="card tilt">
+              <div class="card-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              </div>
+              <h3 style="font-size: 1.1rem;">Doute de crédibilité</h3>
+              <p>Sans vitrine solide, un visiteur hésite et va chercher un concurrent plus structuré.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="mockup-pair">
+          <figure class="mockup-frame tilt">
+            <img src="assets/img/padi-poster.jpg" alt="Affiche et visuels BrandUp" loading="lazy">
+            <figcaption>Visuels percutants</figcaption>
+          </figure>
+          <figure class="mockup-frame land tilt">
+            <img src="assets/img/phone-3d.jpg" alt="Expérience mobile BrandUp" loading="lazy">
+            <figcaption>100% pensé mobile</figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TARIFS & FORMULES AVEC VRAIS APERCUS -->
+  <section class="sec" id="tarifs" style="background: rgba(255, 255, 255, 0.015); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);">
+    <div class="wrap">
+      <div class="center">
+        <div class="tagline">Tarifs clairs &amp; fixes</div>
+        <h2>Trois formules adaptées à votre activité</h2>
+        <p class="lead center">Des tarifs annoncés d'avance, aucun frais caché et un accompagnement pas à pas.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Formule 1 -->
+        <div class="price-card tilt">
+          <img class="thumb-img" src="assets/img/jeweller-hero.jpg" alt="Exemple site portfolio" style="width: calc(100% + 60px); margin: -36px -30px 20px; aspect-ratio: 16/10; object-fit: cover; border-bottom: 1px solid var(--border); border-radius: 20px 20px 0 0;" loading="lazy">
+          <h3>Portfolio</h3>
+          <div class="desc">Votre vitrine digitale : qui vous êtes, ce que vous faites, pourquoi vous choisir.</div>
+          <div class="cost">30 000 <small>FCFA</small></div>
+          <ul class="price-features">
+            <li class="active"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Page d'accueil + section À propos + Témoignages</li>
+            <li class="active"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Design pro, ultra-rapide, 100% mobile</li>
+            <li class="active"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Bouton WhatsApp intégré et personnalisé</li>
+            <li class="active"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Lien prêt à insérer en bio TikTok / Instagram</li>
+          </ul>
+          <a class="btn btn-outline" href="https://wa.me/2290193178531?text=Bonjour%20BrandUp%2C%20je%20choisis%20la%20formule%20Portfolio%20%2830%20000%20FCFA%29" target="_blank" rel="noopener">Choisir cette formule</a>
+        </div>
+
+        <!-- Formule 2 (Featured) -->
+        <div class="price-card featured tilt">
+          <div class="badge-pop">Le plus choisi pour vendre</div>
+          <img class="thumb-img" src="assets/img/nexora-site.jpg" alt="Exemple site vitrine" style="width: calc(100% + 60px); margin: -36px -30px 20px; aspect-ratio: 16/10; object-fit: cover; border-bottom: 1px solid var(--border); border-radius: 20px 20px 0 0;" loading="lazy">
+          <h3>Site Vitrine</h3>
+          <div class="desc">Votre boutique en ligne sécurisée : exposez vos produits, rassurez vos clients, recevez des commandes.</div>
+          <div class="cost">50 000 <small>FCFA</small></div>
+          <ul class="price-features">
+            <li class="active"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Tout le contenu Portfolio inclus</li>
+            <li class="active"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Catalogue produits avec photos, fiches & prix clairs</li>
+            <li class="active"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Bouton « Commander » WhatsApp par article</li>
+            <li class="active"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> FAQ intégrée pour lever les doutes d'achat</li>
+          </ul>
+          <a class="btn btn-primary" href="https://wa.me/2290193178531?text=Bonjour%20BrandUp%2C%20je%20choisis%20la%20formule%20Site%20Vitrine%20%2850%20000%20FCFA%29" target="_blank" rel="noopener">Choisir cette formule</a>
+        </div>
+
+        <!-- Formule 3 -->
+        <div class="price-card tilt">
+          <img class="thumb-img" src="assets/img/nike-site.jpg" alt="Autres services" style="width: calc(100% + 60px); margin: -36px -30px 20px; aspect-ratio: 16/10; object-fit: cover; border-bottom: 1px solid var(--border); border-radius: 20px 20px 0 0;" loading="lazy">
+          <h3>Autres Services</h3>
+          <div class="desc">Outils de gestion avancés : multi-boutiques, suivi des revenus, tableaux de bord personnalisés.</div>
+          <div class="cost">Sur devis</div>
+          <ul class="price-features">
+            <li class="active"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Gestion de plusieurs boutiques depuis un tableau de bord</li>
+            <li class="active"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Suivi et analyse des revenus en temps réel</li>
+            <li class="active"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Outils de gestion des commandes et du stock</li>
+            <li class="active"><svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg> Domaine propre + hébergement sécurisé inclus</li>
+          </ul>
+          <a class="btn btn-outline" href="https://wa.me/2290193178531?text=Bonjour%20BrandUp%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20vos%20autres%20services" target="_blank" rel="noopener">Discuter du projet</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESSUS -->
+  <section class="sec">
+    <div class="wrap">
+      <div class="center">
+        <div class="tagline">Méthode éprouvée</div>
+        <h2>De l'idée à la première vente en 4 étapes</h2>
+        <p class="lead center">Un parcours transparent et rapide, sans complexité technique pour vous.</p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-step tilt">
+          <div class="step-num">1</div>
+          <h3>Cadrage</h3>
+          <p>Échange sur WhatsApp : vos offres, vos photos, vos prix et vos attentes.</p>
+        </div>
+        <div class="process-step tilt">
+          <div class="step-num">2</div>
+          <h3>Création</h3>
+          <p>Conception de l'interface et rédaction des textes orientés conversion.</p>
+        </div>
+        <div class="process-step tilt">
+          <div class="step-num">3</div>
+          <h3>Validation</h3>
+          <p>Vous testez la page sur votre téléphone et nous ajustons les détails.</p>
+        </div>
+        <div class="process-step tilt">
+          <div class="step-num">4</div>
+          <h3>Lancement</h3>
+          <p>Mise en ligne immédiate. Vous ajoutez le lien en bio et recevez vos commandes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION QUI SOMMES-NOUS (L'EQUIPE AVEC CASES PHOTOS ET BIOS) -->
+  <section class="sec" id="qui-sommes-nous" style="border-top: 1px solid var(--border);">
+    <div class="wrap">
+      <div class="center">
+        <div class="tagline">Les artisans du projet</div>
+        <h2>Qui sommes-nous ?</h2>
+        <p class="lead center">Vous restez le visage et le héros de votre marque. Nous construisons l'infrastructure technique et graphique dans les règles de l'art.</p>
+      </div>
+
+      <div class="team-list">
+        <!-- Fondateur 1 - Le Prince -->
+        <div class="team-card tilt">
+          <div class="team-photo-col">
+            <div class="team-photo-box">
+              <img src="assets/img/image copy.png" alt="Le Prince" style="object-position: center top;">
+            </div>
+          </div>
+          <div class="team-bio-col">
+            <span class="team-badge">Co-fondateur</span>
+            <h3 class="team-name">HOUNTOHOTEGBE Jean-Philippe Le Prince Sedjro</h3>
+            <div class="team-role">Stratégie Marketing &amp; Relation Client</div>
+            <p class="team-desc">
+              Le Prince est le visage et la voix de BrandUp. Il assure la relation directe avec chaque client, comprend leurs besoins en profondeur et pilote la stratégie de communication de l'agence. C'est lui qui transforme une idée floue en un brief clair, et qui s'assure que chaque projet dépasse les attentes initiales du client.
+            </p>
+            <div class="team-tags">
+              <span>Marketing Digital</span>
+              <span>Relation Client</span>
+              <span>Stratégie de Contenu</span>
+              <span>Community Management</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Fondateur 2 - Jaïrius Prince Goudayi -->
+        <div class="team-card tilt">
+          <div class="team-photo-col">
+            <div class="team-photo-box">
+              <img src="assets/img/image.png" alt="Jaïrius Prince Goudayi" style="object-position: center top;">
+            </div>
+          </div>
+          <div class="team-bio-col">
+            <span class="team-badge">Co-fondateur &amp; Ingénieur</span>
+            <h3 class="team-name">Jaïrius Prince Goudayi</h3>
+            <div class="team-role">Développement Web &amp; Architecture Logicielle</div>
+            <p class="team-desc">
+              Diplômé du Bachelor d'Epitech Bénin en génie logiciel, Jaïrius est l'architecte technique de BrandUp. Il maîtrise le développement web full-stack, la sécurité applicative et l'intelligence artificielle. Contributeur du projet <strong>IWEY</strong> — plateforme de gestion de cours en ligne pour universités — il conçoit des systèmes robustes, évolutifs et orientés résultats. Son objectif : des solutions innovantes qui répondent à des problématiques concrètes pour sa communauté.
+            </p>
+            <div class="team-tags">
+              <span>Développement Web</span>
+              <span>Architecture Logicielle</span>
+              <span>Cybersécurité</span>
+              <span>Intelligence Artificielle</span>
+              <span>Machine Learning</span>
+            </div>
+            <div style="margin-top: 16px;">
+              <a class="btn btn-outline btn-sm" href="https://portofolio-blond-one-93.vercel.app/" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 8px;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+                Voir le portfolio
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO 3D -->
+  <section class="sec" id="portfolio" style="border-top: 1px solid var(--border);">
+    <div class="wrap">
+      <div class="center">
+        <div class="tagline">Galerie Réalisations</div>
+        <h2>Nos créations</h2>
+        <p class="lead center">Faites tourner la galerie 3D, filtrez par métier, cliquez pour voir en grand.</p>
+      </div>
+      <div class="pf-tools" role="tablist">
+        <button class="fbtn on" data-cat="all">Tous</button>
+        <button class="fbtn" data-cat="web">Conception Web</button>
+        <button class="fbtn" data-cat="motion">Motion Design</button>
+        <button class="fbtn" data-cat="logo">Logos</button>
+        <button class="fbtn" data-cat="affiche">Affiches</button>
+      </div>
+      <div class="g3d" id="gallery3d" aria-label="Galerie 3D">
+        <div class="ghint">Glissez · Flèches · Cliquez pour ouvrir</div>
+        <div id="gempty">Aucun projet dans cette catégorie.</div>
+
+      </div>
+      <div class="portfolio-grid" id="pgrid"></div>
+    </div>
+  </section>
+
+  <!-- MODAL PROJET -->
+  <div class="pmodal" id="pmodal" role="dialog" aria-modal="true">
+    <div class="pbox">
+      <button class="mx" aria-label="Fermer">×</button>
+      <div class="mimgw"><img class="mimg" alt="" loading="lazy"></div>
+      <div class="mbody"></div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <section class="sec" style="background: rgba(255, 255, 255, 0.015); border-top: 1px solid var(--border);">
+    <div class="wrap">
+      <div class="center">
+        <div class="tagline">Réponses directes</div>
+        <h2>Questions fréquentes</h2>
+        <p class="lead center">Toutes les réponses à vos interrogations avant de lancer votre site.</p>
+      </div>
+
+      <div class="faq-wrap">
+        <div class="faq-item open">
+          <button class="faq-question">
+            <span>En combien de temps mon site sera-t-il prêt ?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            Dès réception de vos éléments (photos, prix, textes), la livraison s'effectue sous 5 à 7 jours ouvrés.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Dois-je acheter moi-même un nom de domaine ?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            Pour les formules Présentation et Catalogue, nous vous guidons pas à pas pour l'achat de votre domaine (environ 8 000 FCFA/an). Avec la formule Clé en main, nous gérons l'ensemble des démarches pour vous.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Comment se déroule le règlement ?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            Le règlement s'effectue simplement par Mobile Money (MTN, Moov, Wave, etc.) avec un acompte au lancement et le solde à la validation finale de votre site.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Puis-je modifier mes produits ou mes tarifs plus tard ?</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">
+            Absolument. Nous concevons le site pour qu'il puisse évoluer facilement. Vous pouvez nous solliciter à tout moment pour ajouter de nouveaux produits ou mettre à jour vos offres.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BANNIERE D'ACTION -->
+  <section class="sec">
+    <div class="wrap">
+      <div class="cta-banner">
+        <h2>Donnez à votre activité l'image qu'elle mérite</h2>
+        <p>Écrivez-nous sur WhatsApp pour faire le point sur vos besoins et choisir la formule adaptée.</p>
+        <a class="btn btn-green" href="https://wa.me/2290193178531?text=Bonjour%20BrandUp%2C%20je%20veux%20lancer%20mon%20site%20web" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-1.7-.8-2.8-1.5-3.9-3.4-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3 1.8.8 2.5.8 3.4.7.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg>
+          Écrire à l'équipe sur WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="index.html">
+            <img src="assets/favicon.png" alt="BrandUp">
+            <span>Brand<b>Up</b></span>
+          </a>
+          <p>
+            Création de sites web, motion design et identités de marque pour les créateurs et entrepreneurs africains.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#top">Accueil</a></li>
+            <li><a href="#qui-sommes-nous">L'équipe</a></li>
+            <li><a href="#tarifs">Tarifs</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact direct</h4>
+          <ul>
+            <li><a href="https://wa.me/2290193178531" target="_blank" rel="noopener">WhatsApp : +229 01 93 17 85 31</a></li>
+            <li><a href="https://www.tiktok.com/@brandup" target="_blank" rel="noopener">TikTok : @brandup</a></li>
+            <li><span>Cotonou, Bénin · Afrique francophone</span></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 BrandUp. Tous droits réservés.</span>
+        <span>Conçu pour la performance et la clarté.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- BOUTON FLOTTANT WHATSAPP -->
+  <a class="float-wa" href="https://wa.me/2290193178531?text=Bonjour%20BrandUp%2C%20je%20souhaite%20des%20renseignements" target="_blank" rel="noopener" aria-label="Contacter sur WhatsApp">
+    <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-1.7-.8-2.8-1.5-3.9-3.4-.3-.5.3-.5.9-1.6.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3 1.8.8 2.5.8 3.4.7.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg>
+  </a>
+
+  <!-- SCRIPTS 3D & SITE -->
+  <script src="assets/three.min.js"></script>
+  <script src="assets/hero-assets.js"></script>
+  <script src="assets/hero3d.js"></script>
+  <script src="assets/portfolio-data.js"></script>
+  <script src="assets/portfolio3d.js"></script>
+  <script src="assets/site.js"></script>
+</body>
+</html>
